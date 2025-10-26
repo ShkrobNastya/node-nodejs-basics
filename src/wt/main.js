@@ -8,7 +8,6 @@ const __dirname = dirname(__filename);
 
 const performCalculations = async () => {
   const numberCPUs = os.cpus().length; 
-  console.log(numberCPUs);
   const workers = [];
 
   for (let i = 0; i < numberCPUs; i++) {
